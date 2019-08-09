@@ -10,6 +10,7 @@ if __name__=='__main__':
         if len(sys.argv) < 2:
             raise ValueError
         else:
+            print(sys.argv)
             title = " ".join(sys.argv[1:])
     except ValueError:
         title = "我的界面"
